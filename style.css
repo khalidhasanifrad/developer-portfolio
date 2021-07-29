@@ -18,9 +18,9 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    margin-top: 2%;
     padding-left: 2%;
+    margin-left: 5%;
+
 }
 .half-width img{
     width: 100%;
@@ -36,7 +36,7 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 7px;
     color: white;
     font-weight: 700;
@@ -47,12 +47,6 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 7px;
-    height: 80%;
-    background-color: white;
-}
 .experience{
     margin-left: 5%;
 }
@@ -61,17 +55,22 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
-#baby-web{
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 70%;
+}
+#full-stack{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1; 
 }
-#full-stack{
+#baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue,cyan);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
+    color: dimgray;
 }
